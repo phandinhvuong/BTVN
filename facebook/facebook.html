@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+	<title>Facebook Login</title>
+	<head>
+		<link rel="stylesheet" type="text/css" href="facebook.css">
+		<script type="text/javascript" src="facebook.js" ></script>
+	</head>
+	<body>
+		
+			<div id="header-wrapper">
+				<div id ="header">
+					<li id="logo"><img src="images.PNG" /></li>
+					<form action="post">
+						<li><input type="submit" value ="Tạo tài khoản mới"/></li>
+					</form>
+				</div>
+				
+			</div>	
+			<div id="wrapper">
+				<div id="div">
+				<h3>Đăng nhập Facebook</h3>
+					<li><input type="text" id="email" name="email" placeholder="Email hoặc số điện thoại"> </li>
+					<li><input type="password" id="password1" name="password1"  placeholder="Mật khẩu"> </li> 
+					<li><input class="login" type="submit"  onclick="checkLogin()" value="Đăng nhập"></li> 
+					<li>hoặc</li>											
+					<li><input class = "new" type="submit" value ="Tạo tài khoản mới"></li> 												
+					<li>Quên tài khoản?</li>	
+				</div>		
+			</div>
+	</body>
+</html>
